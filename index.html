@@ -1,57 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hanged Man</title>
-    <link href="css/style.css" rel="stylesheet">
-    <script src="js/script.js"></script>
-</head>
-<body>
-    <header>The Hanged Man</header>
-    
-<!--Make spans for coffin layout on the cards-->
-
-
-    <main>
-        
-        
-        <div class=imgBox1>
-            <img src="hangman_images/row-1-col-1.jpg" id= "hangman" alt="First Error">
+<html>
+  <head>
+    <title>
+      The Hanged Man
+    </title>
+    <header>
+      The Hanged Man
+    <h1>Or, what I wanted to do to myself after this assignment.</h1>
+    </header>
+      <!--this is where the fancy fonts come from, big boy.-->
+      <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+      <!-- CSS link: ' font-family: 'EB Garamond', serif;  ''     -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+      <!-- CSS Link: ' font-family: 'Roboto Slab', serif; '-->
+    <link href="css/hangman.css" rel="stylesheet">
+    <script src="js/hangman.js"></script>
+  </head>
+  <body>
+    <div id="hangman-game">
+      
+      <div id="hangman-frame">
+        <img id="hangman-img" src="images/hangedman.jpg"/>
+      </div>
+      <div id="hangman-interface">
+        <div id="hangman-words"></div>
+        <div id="hangman-char"></div>
+        <div id="hangman-controller">
+          Tries Left: <span id="hangman-lives"></span> 
+          <input type="button" value="Glutton for Punishment, Eh?" id="hangman-reset" disabled/>
         </div>
-        <div class=imgBox2>
-            <img src="hangman_images/row-2-col-1.jpg" id= "hangman" alt="Second Error">
-        </div>
-        <div class=imgBox3>
-            <img src="hangman_images/row-3-col-1.jpg" id= "hangman" alt="Third Error">
-        </div>
-        <div class=imgBox4>
-            <img src="hangman_images/row-4-col-1.jpg" id= "hangman" alt="Fourth Error">
-        </div>
-        <div class=imgBox5>
-            <img src="hangman_images/row-5-col-1.jpg" id= "hangman" alt="Fifth Error">
-        </div>
-        <div class=imgBox6>
-            <img src="hangman_images/row-6-col-1.jpg" id= "hangman" alt="Sixth Error">
-        </div>
-        
-    
-
-
-
-    </main>
-
-
-  
-
-
-
-
-
-    
-    <footer></footer> 
-
-
-</body>
+      </div>
+    </div>
+  </body>
 </html>
+      
+
+        
+
+        
+

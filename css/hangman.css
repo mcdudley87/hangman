@@ -1,0 +1,65 @@
+/*Here be the designification of that sweet, sweet box*/
+
+header {
+  max-width: 400px; 
+  height: 50px; 
+  border: 1px solid #000000;
+  background: #000000;
+  margin: 1em auto;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'EB Garamond', serif; 
+  font-size: 35px; 
+}
+
+h1 {
+  max-width: 400px; 
+  height: 50px; 
+  border: 1px solid #000000;
+  background: #000000;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'EB Garamond', serif; 
+  font-size: 15px; 
+}
+
+#hangman-game {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#hangman-frame {
+  width: 40%;
+  background: rgb(3, 3, 3);
+}
+#hangman-img {
+  transition: all 1s;
+  opacity: 0;
+}
+
+#hangman-interface {
+  width: 60%;
+  padding: 10px;
+  background: rgb(87, 84, 84);
+}
+#hangman-words span {
+  display: inline-block;
+  margin: 5px;
+  font-size: 2em;
+}
+#hangman-char input[type=button] {
+  font-size: 1.3em;
+  padding: 5px;
+}
+#hangman-controller {
+  padding: 5px;
+}
+
+html, body {
+  font-family: 'EB Garamond', serif; 
+  padding: 0;
+  margin: 0;
+}
